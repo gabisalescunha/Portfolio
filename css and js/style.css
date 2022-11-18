@@ -425,8 +425,8 @@ footer {
 
     .conteudo-principal-escrito-botao {
         font-size: 1.0rem;
-        height: 30px;    
-        width: 70px;
+        height: 35px;    
+        width: 90px;
     }
     .projects_title {
         padding-bottom: 15px;
@@ -453,7 +453,7 @@ footer {
         height: 13px;
     }
     .escrito-botao {
-        font-size: 12px;
+        font-size: 10px;
     }
     .line {
         font-size: 1.1rem;
