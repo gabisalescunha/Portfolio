@@ -1,0 +1,485 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Arima&display=swap');
+
+body {
+    font-size: 100%;
+    font-family: 'Arima', cursive;
+    color: #33272a;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-image: linear-gradient(to right, #6586bd, #a4a6a7);
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: #fff;
+}
+
+.nav-links a {
+    color: #101010;
+}
+
+.cabecalho__logo {
+    display: flex;
+    width: 50%;
+    padding-left: 20px;
+}
+
+
+/* NAVBAR MENU */
+.menu {
+    align-items: center;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    font-size: 18px;
+    font-family: 'Arima', cursive;
+    font-weight: 650;
+    gap: 1em;
+    text-decoration: none;
+}
+
+.menu li:hover {
+    background-color:transparent;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    box-shadow: 0 9px 0 rgb(141, 185, 237);
+    color: rgba (236, 214, 196, 0.53);
+    font-weight: 500;
+
+}
+.menu li {
+    padding: 5px 14px;
+}
+
+/* MENU SUSPENSO */
+.dropdown {
+    background-color: rgb(202, 199, 199);
+    padding: 1em 0;
+    position: absolute; /*COM RELAÇÃO AOS PAIS*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+}
+
+.dropdown li + li {
+    margin-top: 10px;
+}
+.dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+}
+.dropdown li:hover {
+    background-color: #4c9e9e;
+}
+.services:hover .dropdown {
+    display: block;
+}
+
+/* NAVBAR MENU RESPONSIVA*/
+
+/* CHECKBOX HACK */
+input[type=checkbox]{
+    display: none;
+} 
+/*HAMBURGER MENU*/
+.hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+
+
+
+
+/**/
+
+.aboutMe{
+    align-items: center;
+    border-top: 0.2px solid #4e77be;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutMe_title{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 0%;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.aboutMe_p{
+    display: flex;
+    color: black;
+    text-align: center;
+    font-size: 27px;
+    margin: 25px 35px;
+    padding: 25px 110px 35px;  
+}
+
+.conteudo__principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.line{
+    font-family: 'Arima', cursive;
+    margin: 0 auto;
+    color: aliceblue;
+    border-right: 2px solid rgba(255, 255, 255, .75);
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+.type-animation {
+    animation: 
+        cursor 550ms steps(28) infinite normal,
+        type 4s steps(28) 1s normal both;
+}
+
+
+@keyframes type{
+    from{
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes cursor{
+    from {
+        border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+        border-right-color: grey;
+    }
+}
+
+.conteudo__principal__imagem{
+    cursor: pointer;
+    margin-top: 20px;
+    display: flex;
+    height: 250px;
+
+}
+
+.conteudo__principal__imagem:hover{
+    border-radius: 20px;
+    box-shadow: px 8px 8px rgb(141, 185, 237);
+    color: rgba (236, 214, 196, 0.53);
+    font-weight: 400px;
+    transform: scale(1.1);
+}
+
+
+.conteudo-principal-escrito-subtitulo{
+    margin-top: 0px;
+    padding-right: 30px;
+    font-family: 'Arima', cursive;
+    font-weight: 500;
+    color: black;
+    font-size: 1.80rem;
+}
+
+
+.conteudo-principal-escrito-botao{
+    background-color: aliceblue;
+    border: none;
+    box-shadow: 6px 7px 6px black;
+    border-radius: 15px;
+    font-family: 'Arima', cursive;
+    font-weight: 400;
+    justify-items: center;
+    cursor: pointer;
+    font-size: 1.35rem;
+    height: 35px;    
+    width: 140px;
+}
+
+.conteudo-principal-escrito-botao a{
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.conteudo-principal-escrito-botao:hover{
+    color: rgba (236, 214, 196, 0.53);
+    border-radius: 20px;
+    font-weight: 400px;
+    box-shadow: px 8px 8px rgb(141, 185, 237);
+    transform: scale(1.1);
+}
+
+.linkedin__botao{
+    height: 23px;
+}
+
+.skills{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.title__skills{
+    color: black;
+    margin-bottom: 0%;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+
+.pulsate-bck {
+    -webkit-animation: pulsate-bck 0.6s ease-in-out infinite both;
+	animation: pulsate-bck 0.6s ease-in-out infinite both;
+}
+
+@-webkit-keyframes pulsate-bck {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    50% {
+      -webkit-transform: scale(0.9);
+              transform: scale(0.9);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes pulsate-bck {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    50% {
+      -webkit-transform: scale(0.9);
+              transform: scale(0.9);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
+.projects_title {
+    color: black;
+    font-weight: 400;
+    margin-bottom: 0%;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+    border-top: 0.9px solid #4e77be;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.projects{
+    display: flex;
+    justify-items: center;
+    padding-top: 30px;
+    padding-bottom: 90px;
+}
+
+.project-edit{
+    text-align: center;
+    color: #101010;
+    font-size: 140%;
+    padding-bottom: 4px;
+}
+
+.project-edit-p{
+    text-align: center;
+    color: aliceblue;
+    font-size: 15px;
+    padding-bottom: 4px;
+}
+
+.div-project{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projeto-img{
+    width: 40%;
+}
+.projeto-a-img{
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    border-top: 0.6px solid #4e77be;
+    font-weight: 400;
+    font-size: 15px;
+    margin: o auto;
+}
+
+/* APLICAÇÃO MEDIA QUERIES */
+@media screen and  (max-width: 766px) {
+
+    body {
+        background-color: #6586bd;
+    }
+    header{
+        padding: 20px;
+    }
+
+    .cabecalho__logo {
+        display: flex;
+        width: 50%;
+        padding-left: 0;
+    }
+
+    .aboutMe_p{
+        font-size: 19px;
+        font-weight: 100;
+        margin: 25px 0;
+        padding: 25px 30px;    
+    }
+
+    .menu { 
+        background-image: linear-gradient(to left, #6586bd, #cfd9de);
+        border-radius: 35px;
+        display:none;
+        left: 0;
+        padding: 15px;
+        position:absolute;
+        right: 0;
+        text-align:center;
+    }
+    .menu li:hover {
+        background-color: transparent;
+        transition: 0.2s ease;
+        box-shadow: 0;
+        font-weight: 500;
+    }    
+
+    .menu li + li {
+        margin-top: 10px;
+    }
+    input[type=checkbox]:checked ~ .menu{
+        display:block;
+    }
+    .hamburger {
+        display: block;
+        color: black;
+        width: 25px;
+        padding-right: 20px;
+    }
+    .dropdown {
+        left: 50%;
+        top: 30px;
+        transform: translateX(35%);
+    }
+    .dropdown li:hover {
+        background-color: #4c9e9e;
+    }
+
+    .conteudo-principal-escrito-subtitulo {
+        font-size: 1.1rem;
+    }
+    .aboutMe_title {
+        display: flex;
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .conteudo-principal-escrito-botao {
+        font-size: 1.0rem;
+        height: 30px;    
+        width: 70px;
+    }
+    .projects_title {
+        padding-bottom: 15px;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .title__skills {
+        display: flex;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .conteudo__principal__imagem {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 110px;
+    }
+    .linkedin__botao{
+        height: 13px;
+    }
+    .escrito-botao {
+        font-size: 12px;
+    }
+    .line {
+        font-size: 1.1rem;
+    }
+    .projects{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 60px;
+    }
+
+    .project-edit{
+        padding-top: 20px;
+        color: #101010;
+    }
+    .project-edit-p{
+        padding-top: 5px;
+        padding-bottom: 2px;
+        font-size: 13px;
+    }
+
+    .projeto-img{
+        padding-bottom: 25px;
+    }
+
+    .div-project{
+        border: rgb(78,119,190) solid #4e77be;
+        border-radius: 20px;
+        box-shadow: 1px 1px 47px 22px rgba(164,166,167,0.91);
+        -webkit-box-shadow: 1px 1px 47px 22px rgba(164,166,167,0.91);
+        -moz-box-shadow: 1px 1px 47px 22px rgba(164,166,167,0.91);
+        margin: 10px;
+    }
+        
+}
