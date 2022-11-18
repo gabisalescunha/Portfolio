@@ -135,8 +135,7 @@ input[type=checkbox]{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding: 90px 0 90px 0;
 }
 
 .conteudo-principal-escrito{
@@ -368,6 +367,11 @@ footer {
         width: 50%;
         padding-left: 0;
     }
+
+    .conteudo__principal{
+        padding: 90px 0 90px 0;
+    }
+    
 
     .aboutMe_p{
         font-size: 19px;
