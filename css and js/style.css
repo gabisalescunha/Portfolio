@@ -337,11 +337,12 @@ input[type=checkbox]{
 .top__page{
     position: fixed;
     right: -70px;
-    margin-top: 40%;
+    margin: 26% 3% 0 0;
 }
 
 .top__page-img{
     width: 25%;
+    padding-left: 2px;
 }
 
 .top__page-text{
@@ -349,6 +350,7 @@ input[type=checkbox]{
     color: #101010;
     font-weight: 600;
     font: bolder;
+    
 }
 
 
@@ -501,7 +503,7 @@ footer {
     }
 
     .top__page{
-        margin: 84% 3% 0 0;
+        margin: 82% 3% 0 0;
         right: -80px;
     }    
 
