@@ -22,7 +22,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 50px 20px 50px 20px;
     color: #fff;
 }
 
@@ -337,6 +337,7 @@ input[type=checkbox]{
 .top__page{
     position: fixed;
     right: -70px;
+    margin-top: 40%;
 }
 
 .top__page-img{
@@ -500,17 +501,19 @@ footer {
     }
 
     .top__page{
-        margin: 90% 1% 0 0;
+        margin: 84% 3% 0 0;
         right: -80px;
     }    
 
     .top__page-img{
         width: 20%;
+        
     }    
 
     .top__page-text{
         font-size: 0.4rem;
         font-style: italic;
+        text-align: left;
     }
     
         
