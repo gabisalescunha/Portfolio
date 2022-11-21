@@ -341,6 +341,23 @@ input[type=checkbox]{
     justify-content: center;
 }
 
+.top__page{
+    position: fixed;
+    right: -70px;
+}
+
+.top__page-img{
+    width: 25%;
+}
+
+.top__page-text{
+    font-size: 0.6rem;
+    color: #101010;
+    font-weight: 600;
+    font: bolder;
+}
+
+
 footer {
     display: block;
     text-align: center;
@@ -490,5 +507,20 @@ footer {
         -moz-box-shadow: 1px 1px 47px 22px rgba(164,166,167,0.91);
         margin: 10px;
     }
+
+    .top__page{
+        right: -80px;
+    }    
+
+
+    .top__page-img{
+        width: 20%;
+    }    
+
+    .top__page-text{
+        font-size: 0.4rem;
+        font-style: italic;
+    }
+    
         
 }
