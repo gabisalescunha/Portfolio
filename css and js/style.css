@@ -5,8 +5,7 @@ body {
     font-size: 100%;
     font-family: 'Arima', cursive;
     color: #33272a;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0 20px 0 20px;
     background-image: linear-gradient(to right, #6586bd, #a4a6a7);
 }
 
@@ -243,21 +242,18 @@ input[type=checkbox]{
     display: flex;
     width: 100%;
     justify-content: space-evenly;
-    padding-top: 20px;
-    padding-bottom: 45px;
+    padding: 20px 0 60px 0;
 }
 
 .title__skills{
     color: black;
-    margin-bottom: 0%;
-    padding-top: 50px;
-    padding-bottom: 25px;
-    justify-content: center;
     display: flex;
     font-size: 30px;
     font-weight: 400;
+    justify-content: center;
+    margin-bottom: 0%;
+    padding: 50px 0 25px 0;
 }
-
 
 
 .pulsate-bck {
@@ -296,21 +292,18 @@ input[type=checkbox]{
   
 .projects_title {
     color: black;
-    font-weight: 400;
-    margin-bottom: 0%;
-    padding-top: 80px;
-    padding-bottom: 30px;
-    text-align: center;
     border-top: 0.9px solid #4e77be;
-    font-size: 30px;
     font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 0%;
+    padding: 80px 0 30px 0;
+    text-align: center;
 }
 
 .projects{
     display: flex;
     justify-items: center;
-    padding-top: 30px;
-    padding-bottom: 90px;
+    padding: 30px 0 90px 0;
 }
 
 .project-edit{
@@ -328,10 +321,10 @@ input[type=checkbox]{
 }
 
 .div-project{
+    align-items: center;
     display:flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 .projeto-img{
     width: 40%;
@@ -361,8 +354,7 @@ input[type=checkbox]{
 footer {
     display: block;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 15px;
+    padding: 30px 0 15px 0;
     border-top: 0.6px solid #4e77be;
     font-weight: 400;
     font-size: 15px;
@@ -450,9 +442,9 @@ footer {
         width: 90px;
     }
     .projects_title {
-        padding-bottom: 15px;
         font-size: 25px;
         font-weight: 500;
+        padding-bottom: 15px;
     }
 
     .skills{
@@ -490,9 +482,8 @@ footer {
         color: #101010;
     }
     .project-edit-p{
-        padding-top: 5px;
-        padding-bottom: 2px;
         font-size: 13px;
+        padding: 5px 0 2px 0;
     }
 
     .projeto-img{
