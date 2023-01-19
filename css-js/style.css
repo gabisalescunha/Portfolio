@@ -127,7 +127,7 @@ input[type=checkbox]{
     text-align: center;
     font-size: 27px;
     margin: 25px 35px;
-    padding: 25px 110px 35px;  
+    padding: 25px 100px 35px;  
 }
 
 .conteudo__principal{
@@ -242,7 +242,7 @@ input[type=checkbox]{
     display: flex;
     width: 100%;
     justify-content: space-evenly;
-    padding: 20px 0 60px 0;
+    padding: 20px 0 40px 0;
 }
 
 .title__skills{
@@ -309,25 +309,19 @@ input[type=checkbox]{
 .project-edit{
     text-align: center;
     color: #101010;
-    font-size: 140%;
-    padding-bottom: 4px;
+    font-size: 80%;
 }
 
 .project-edit-p{
     text-align: center;
     color: aliceblue;
-    font-size: 15px;
-    padding-bottom: 4px;
+    font-size: 10%;
 }
 
-.div-project{
+.swiper-slide{
     align-items: center;
     display:flex;
     flex-direction: column;
-    justify-content: center;
-}
-.projeto-img{
-    width: 40%;
 }
 .projeto-a-img{
     display: flex;
@@ -363,6 +357,28 @@ footer {
     font-size: 15px;
     margin: o auto;
 }
+.carrossel__titulo{
+    color: black;
+    border-top: 0.9px solid #4e77be;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 0%;
+    padding: 50px 0 30px 0;
+    text-align: center;
+}
+
+.projeto-img{
+    width: 70%;
+}
+
+.swiper-button-prev, .swiper-button-next  {
+    display: none;
+}
+
+.swiper-pagination {
+    margin: 0.2rem 0 0.9rem 0;
+    position: initial;
+}
 
 /* APLICAÇÃO MEDIA QUERIES */
 @media screen and  (max-width: 800px) {
@@ -389,7 +405,7 @@ footer {
         font-size: 19px;
         font-weight: 100;
         margin: 25px 0;
-        padding: 25px 60px;    
+        padding: 25px 17px;    
     }
 
     .menu { 
@@ -451,7 +467,10 @@ footer {
     }
 
     .skills{
-        padding-bottom: 55px;
+        padding: 55px 10px 30px 10px;
+        display: flex;
+        flex-wrap: wrap;
+        
     }
     
     .title__skills {
@@ -520,3 +539,7 @@ footer {
     
         
 }
+
+
+
+

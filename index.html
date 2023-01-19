@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="./apple-icon.png"/>
     <link rel="stylesheet" href="./css-js/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css-js/style.css">
     <title>Portifolio Front-End GB</title>
 </head>
@@ -61,35 +62,72 @@
         <section>
             <h3 class="title__skills">My Skills</h3>
             <div class="skills">
-                <img class="pulsate-bck" style="width: 55px; height: 50px;" src="img/HTML5.png" alt="Logo Html5">
-                <img class="pulsate-bck" style="width: 39px; height: 50px;" src="img/CSS3.png" alt="Logo CSS">
-                <img class="pulsate-bck" style="width: 39px; height: 50px;" src="img/JavaScript.png" alt="Logo JS">
-                <img class="pulsate-bck" style="width: auto; height: 50px;" src="img/git-github.png" alt="Logo gitgithub">
-            </div>    
-        </section>
-        <h1 class="projects_title">My Projects</h1>
-        <section id="linkProject" class="projects">
-            <div class="div-project">
-                <a class="project-edit" href="#">Landing Page NavBar</a>
-                <p class="project-edit-p">HTML and CSS(responsive)</p>
-                <a class="projeto-a-img" href="https://gabrielle-bertocchi.github.io/landing-page-navbar/#"><img class="projeto-img" src="img/LandingPage.png" alt="P.LPage"></a>
-            </div>
-            <div class="div-project">
-                <a class="project-edit" href="#">Mario Game</a>
-                <p class="project-edit-p">JavaScript</p>
-                <a class="projeto-a-img" href="https://gabrielle-bertocchi.github.io/mario-javascript/" target="_blank"><img class="projeto-img" src="img/projeto-mario.png" alt="Game Mario JavaScript"></a>
-            </div>
-            <div class="div-project">
-                <a class="project-edit" href="#">New Project</a>
-                <p class="project-edit-p">Coming soon</p>
-                <a class="projeto-a-img" href="#"><img class="projeto-img" src="img/coming-soon.png" alt="coming soon"></a>
+                <img class="pulsate-bck" style="width: 60px; height: 55px; padding: 15px;" src="img/HTML5.png" alt="Logo Html5">
+                <img class="pulsate-bck" style="width: 44px; height: 50px; padding: 15px;" src="img/CSS3.png" alt="Logo CSS">
+                <img class="pulsate-bck" style="width: 44px; height: 50px; padding: 15px;" src="img/JavaScript.png" alt="Logo JS">
+                <img class="pulsate-bck" style="width: 60px; height: 50px; padding: 15px;" src="img/figma.png" alt="Logo figma">
+                <img class="pulsate-bck" style="width: auto; height: 50px;padding: 15px;" src="img/git-github.png" alt="Logo gitgithub">
             </div>
         </section>
+        
+        <section class="carrossel">
+            <h2 class="carrossel__titulo">My Projects</h2>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <a class="project-edit" href="#">Landing Page NavBar</a>
+                    <p class="project-edit-p">HTML/CSS(responsive)</p>
+                    <a class="projeto-a-img" href="https://gabrielle-bertocchi.github.io/landing-page-navbar/#"><img class="projeto-img" src="img/LandingPage.png" alt="P.LPage"></a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="project-edit" href="#">Mario Game</a>
+                    <p class="project-edit-p">JavaScript</p>
+                    <a class="projeto-a-img" href="https://gabrielle-bertocchi.github.io/mario-javascript/" target="_blank"><img class="projeto-img" src="img/projeto-mario.png" alt="Game Mario JavaScript"></a>
+                </div>
+    
+                <div class="swiper-slide">
+                    <a class="project-edit" href="#">New Project</a>
+                    <p class="project-edit-p">Coming soon</p>
+                    <a class="projeto-a-img" href="#"><img class="projeto-img" src="img/coming-soon.png" alt="coming soon"></a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a class="project-edit" href="#">New Project</a>
+                    <p class="project-edit-p">Coming soon</p>
+                    <a class="projeto-a-img" href="#"><img class="projeto-img" src="img/coming-soon.png" alt="coming soon"></a>
+                </div>
+
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </section> 
     </main>
     <footer>
         <p>WebSite by <a href="https://www.linkedin.com/in/gabriellebertocchi/" target="_blank"> Gabrielle Bertocchi Sales</a></p>    
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="css-js/main.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween:10,
+            slidesPerView: 2,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
 </body>
 </html>
   
