@@ -358,7 +358,7 @@ footer {
     margin: o auto;
 }
 .carrossel__titulo{
-    color: black;
+    color: #101010;
     border-top: 0.9px solid #4e77be;
     font-weight: 400;
     font-size: 30px;
@@ -499,10 +499,10 @@ footer {
         padding-bottom: 60px;
     }
 
-    .project-edit{
+    .carrossel__titulo{
         padding-top: 20px;
-        color: #101010;
     }
+
     .project-edit-p{
         font-size: 13px;
         padding: 5px 0 2px 0;
