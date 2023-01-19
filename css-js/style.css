@@ -371,6 +371,14 @@ footer {
     width: 70%;
 }
 
+.project-edit{
+    font-size: 19px;
+}
+
+.project-edit-p {
+    font-size: 16px;
+}
+
 .swiper-button-prev, .swiper-button-next  {
     display: none;
 }
@@ -509,6 +517,8 @@ footer {
     }
 
     .projeto-img{
+        width: 90%;
+        height: 90%;
         padding-bottom: 25px;
     }
 
@@ -536,6 +546,7 @@ footer {
         font-style: italic;
         text-align: left;
     }
+
     
         
 }
