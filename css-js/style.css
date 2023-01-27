@@ -309,13 +309,13 @@ input[type=checkbox]{
 .project-edit{
     text-align: center;
     color: #101010;
-    font-size: 80%;
+    font-size: 90%;
 }
 
 .project-edit-p{
     text-align: center;
     color: aliceblue;
-    font-size: 10%;
+    font-size: 70%;
 }
 
 .swiper-slide{
@@ -371,13 +371,6 @@ footer {
     width: 70%;
 }
 
-.project-edit{
-    font-size: 19px;
-}
-
-.project-edit-p {
-    font-size: 16px;
-}
 
 .swiper-button-prev, .swiper-button-next  {
     display: none;
@@ -509,7 +502,7 @@ footer {
 
     .carrossel__titulo{
         padding-top: 20px;
-    }
+    }    
 
     .project-edit-p{
         font-size: 13px;
