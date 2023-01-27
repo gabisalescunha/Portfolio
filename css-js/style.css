@@ -504,9 +504,13 @@ footer {
         padding-top: 20px;
     }    
 
+    .project-edit{
+        font-size: 66%;
+    }
+
     .project-edit-p{
-        font-size: 13px;
-        padding: 5px 0 2px 0;
+        font-size: 50%;
+        padding: 0 0 2px 0;
     }
 
     .projeto-img{
