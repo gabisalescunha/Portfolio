@@ -307,13 +307,13 @@ input[type=checkbox]{
 .project-edit{
     text-align: center;
     color: #101010;
-    font-size: 90%;
+    font-size: 100%;
 }
 
 .project-edit-p{
     text-align: center;
     color: aliceblue;
-    font-size: 70%;
+    font-size: 80%;
 }
 
 .swiper-slide{
