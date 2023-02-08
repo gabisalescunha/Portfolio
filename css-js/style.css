@@ -312,9 +312,22 @@ input[type=checkbox]{
     text-align: center;
 }
 
-    .carrossel{
-        padding-bottom: 40px;
-    }
+.carrossel{
+    padding-bottom: 40px;
+}
+
+.botao-img-projeto{
+    margin-top: 5%;
+    width: 20%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.img-clique{
+    width: 35%;
+}
 
 .project-edit{
     text-align: center;
@@ -333,10 +346,18 @@ input[type=checkbox]{
     display:flex;
     flex-direction: column;
 }
+
 .projeto-a-img{
     display: flex;
     justify-content: center;
+    width: auto;
 }
+
+.projeto-img{
+    width: 70%;
+    border-radius: 10px;
+}
+
 
 .top__page{
     position: fixed;
@@ -377,9 +398,7 @@ footer {
     text-align: center;
 }
 
-.projeto-img{
-    width: 70%;
-}
+
 
 
 .swiper-button-prev, .swiper-button-next  {
@@ -531,7 +550,16 @@ footer {
     .projeto-img{
         width: 90%;
         height: 90%;
-        padding-bottom: 25px;
+        border-radius: 10px;
+    }
+    .botao-img-projeto{
+        margin-top: 20%;
+        width: 40%;
+        height: 10%;
+    }
+
+    .img-clique{
+        width: 50%;
     }
 
     .div-project{
