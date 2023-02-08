@@ -1,7 +1,8 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Arima&display=swap');
 
-body {
+  
+  body {
     font-size: 100%;
     font-family: 'Arima', cursive;
     color: #33272a;
